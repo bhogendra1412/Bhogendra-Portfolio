@@ -2,6 +2,11 @@ header{
     background-color:  #2196F3;
     color:white;
     height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 body{
     margin:0px;
@@ -17,18 +22,19 @@ body{
     border:none;
     border-radius: 10px;
     cursor:pointer;
+    margin:15px;
 }
 .button:hover{
     background-color:darkblue;
     color:white;
 }
 header h1{
-    margin:0;
     color:white;
+    text-align: center;
 }
 h1{
     color:#2196F3;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 img{
     height: 350px;
@@ -38,6 +44,12 @@ section{
     border:1px solid grey;
     border-radius:20px;
     margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    padding-left: 7px;
 }
 main{
     padding:20px;
@@ -51,6 +63,10 @@ footer{
     height: 150px;
     background-color: black;
     color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .submit{
     height:40px;
@@ -76,4 +92,16 @@ footer{
     position: fixed;
     bottom:10px;
     right:10px;
+}
+a{
+    text-decoration:none;
+}
+.buttons{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+form div{
+    margin: 5px 0px;
 }

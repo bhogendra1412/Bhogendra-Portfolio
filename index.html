@@ -9,37 +9,40 @@
 <body>
     <header>
         <h1>Welcome to My Portfolio</h1>
-    <a href="">
-        <button class="button">
-            About
-        </button>
-    </a>
-    <a href="">
-        <button class="button">
-            Skills
-        </button>
-    </a>
-    <a href="">
-        <button class="button">
-            Projects
-        </button>
-    </a>
-    <a href="">
-        <button class="button">
-            Contact
-        </button>
-    </a>
-    </header>
+        <div class="buttons">
+            <a href="#about">
 
+            <button class="button">
+                About
+            </button>
+        </a>
+        <a href="#skills">
+            <button class="button">
+                Skills
+            </button>
+        </a>
+        <a href="#projects">
+            <button class="button">
+                Projects
+            </button>
+        </a>
+        <a href="#contact">
+            <button class="button">
+                Contact
+            </button>
+        </a>
+    </div>
+    </header>
+    
     <main>
         <section id="about">
-            <h1>Chowdavarapu Bhogendra</h1>
+            <h1 style="text-align: center;">Chowdavarapu Bhogendra</h1>
             <img src="mypic.jpeg" alt="A Photo of me">
             <p>I am a passionate web developer with a focus on front-end technologies.</p>
             
             <p>I am currently pursuing my B. Tech in <em>VR Siddhartha Engineering College Vijayawada.</em> </p>
 
-            <p>I have learnt Web Development from<br>Code With Swaroop.</p>
+            <p>I have learnt Web Development from Code With Swaroop.</p>
             <p>You can <strong>Click Here</strong> to Checkout What I have learnt in HTML,CSS,JS.</p>
         </section>
         
@@ -78,37 +81,53 @@
             <h1>Contact Me</h1>
     <p>Feel free to get in touch with me using the form below:</p><br>
     <form>
-    <label for="name">Name:</label>
-    <input type="text" id="name"><br>
+        <div>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email"><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            
+        </div>
+        <div>
 
-    <b>Choose your gender:</b>
-    <input type="radio" id="male" value="Male">
-    <label for="male">Male</label>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            
+        </div>
+        <div>
 
-    <input type="radio" id="female" value="Female">
-    <label for="female">Female</label> <br>
+            <b>Choose your gender:</b>
+            <input type="radio" id="male" value="Male">
+            <label for="male">Male</label>
 
-    <b>Select your interests:</b>
-    <input type="checkbox" id="coding" value="Coding">
-    <label for="coding">Coding</label>
-
-    <input type="checkbox" id="reading" value="Reading">
-    <label for="reading">Reading</label><br>
-
-    <label for="bio">Bio (up to 200 characters):</label>
-    <input type="text" id="bio"><br>
-
-    <button type="submit"class="submit">Submit</button>
+            <input type="radio" id="female" value="Female">
+            <label for="female">Female</label>
+            
+        </div>
+        <div>
+            
+            <b>Select your interests:</b>
+            <input type="checkbox" id="coding" value="Coding">
+            <label for="coding">Coding</label>
+            
+            <input type="checkbox" id="reading" value="Reading">
+            <label for="reading">Reading</label>
+        </div>
+        <div>
+            
+            <label for="bio">Bio (up to 200 characters):</label>
+            <input type="text" id="bio"><br>
+            
+        </div>
+            <button type="submit"class="submit">Submit</button>
 
     </form>
     </section>
     </main>
-
-    <button class="top">TOP</button>
-
+    <a href="">
+        
+        <button class="top">TOP</button>
+        
+    </a>
     <footer>
        <p>© 2024 My Portfolio </p>
     </footer>
